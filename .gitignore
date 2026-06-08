@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# 本地环境与密钥
+.env
+.env.*
+*.key
+*.pem
+
+# 图片生成输出
+tmp_files/
+last_image_generation_response.json
+generated_image_*.png
+generated_image_*.jpg
+generated_image_*.jpeg
+generated_image_*.webp
+
+# 本地提交规则文件
+GIT_COMMIT_RULES.md
+
+# 系统与编辑器
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
